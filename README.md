@@ -4,39 +4,33 @@ This is the first challenge for the VerifyThis 2025 competition. Please see the 
 
 ### Getting your copy of the challenge repository
 
-Before you perform the next steps, you first need to create your own
-private copy of the template repository for this challenge. 
-
-To do so, click on the link provided in the announcement of the challenge.
-
-After clicking on the link, select the name of your team to join it or
-if your team does not yet exist, create a new team with the name of
-your team. If you have a team member, please coordinate with them to
-make sure that you join the right team. At most two people can be on
-the same team.
-
-After accepting the assignment, a copy of the repository will be created. It will be
-available at
-`https://github.com/VerifyThis2025/challenge-1-<YOUR-TEAM-NAME>`
-where <YOUR-TEAM-NAME> is your team's name in all lower case letters.
-
-* Open a browser at `https://github.com/VerifyThis2025/challenge-1-<YOUR-TEAM-NAME>`.
-* Choose a place on your computer for your homework assignments to reside and open a terminal to that location.
-* Execute the following git command: <br/>
+To obtain a local copy of this repository, proceed as follows:
+* Choose a place on your computer for your copy of the repository to reside and open a terminal to that location.
+* Then execute the following git command: <br/>
   ```bash
   git clone https://github.com/VerifyThis2025/challenge-1-<YOUR-TEAM-NAME>.git challenge-1
   cd challenge-1
   ```
-  You may of course use any Git client of your choice as an alternative.
+  where `<YOUR-TEAM-NAME>` is your team's name in all lower case characters. 
+  You may of course use any Git client of your choice as an alternative to using a command line Git client. 
   
+
 
 ### Submitting your solution
 
-Submit your solution via your team's Github repository for this challenge. To do so, execute the following commands in the root directory of your repository:
+You will submit your solution to a challenge via your team's Github repository. To do so, place any relevant files of your solution in your local copy of the challenge repository. Then execute the following commands in the root directory of the repository:
 ```bash
 git add .
 git commit -m "solution"
 git push
 ```
-We do not prescribe a specific format for submitting your solution. Though, if you want to provide any auxiliary explanations that may help us (and others) to better understand your solution, please put them into a file `solution.md`.
+Refresh the Github page of the repository to check that the solution has indeed been submitted.
+
+We do not prescribe a specific format for submitting your solution. However, to help us with the evaluation, please include a text file called `progress.md` with your submission that lists all the tasks that you have attempted or completed.
+
+If you want to provide any auxiliary explanations that may help us (and others) to better understand your solution, please put them into a text file `solution.md`.
+
+Feel free to use the repository to collaboratively work on the solution. You can commit and push as often as you like. We will consider the last commit before the deadline for the challenge as the authoritative version of your solution.
+
+Please note that GitHub classroom tracks the timestamp of your last commit before the deadline separately from the timestamps that appear in the Git history of your repository. Any attempt at manipulating the Git history so that commits that have happened after the deadline appear to have happened earlier will be visible to us. If we were to discover such an attempted manipulation, you would be tarred and feathered (and also disqualified from the competition).
 
